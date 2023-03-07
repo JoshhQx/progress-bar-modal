@@ -1,0 +1,31 @@
+$primaryColor: #006554;
+$secondaryColor: $secondaryColor;
+
+.modal-header {
+	background-color: $primaryColor;
+	h2 {
+		color: $secondaryColor;
+	}
+}
+
+//Progress bar color
+.uk-progress.progress-green::-webkit-progress-value {
+	background-color: $primaryColor;
+}
+.uk-progress.progress-green::-moz-progress-bar {
+	background-color: $primaryColor;
+}
+.uk-progress.progress-green::-ms-fill {
+	background-color: $primaryColor;
+}
+
+.modal-buttons {
+	:first-child {
+		background-color: transparent;
+	}
+	:last-child {
+		background-color: $primaryColor;
+		color: $secondaryColor;
+		border-radius: 15px;
+	}
+}

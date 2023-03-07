@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/css/uikit.min.css" />
+		<link href="/styles/styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<a class="uk-button uk-button-default" href="#modal-container" uk-toggle id="modal-button">Open</a>
+
+		<div id="modal-container" class="uk-modal-container" uk-modal>
+			<div class="uk-modal-dialog uk-modal-body uk-padding-remove">
+				<div class="modal-header uk-padding-small">
+					<button class="uk-modal-close-default" type="button" uk-close></button>
+					<h2 class="uk-modal-title uk-margin-remove uk-text-large uk-text-bolder uk-text-center">Headline</h2>
+				</div>
+				<div class="class modal-content uk-padding-large">
+					<div class="uk-flex uk-flex-middle uk-flex-between">
+						<h4 class="uk-margin-remove">Progress Bar Indicator</h4>
+						<p id="percentage">%</p>
+					</div>
+					<progress id="js-progressbar" class="uk-progress progress-green" value="0" max="100"></progress>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="class uk-text-right uk-padding-small modal-buttons">
+					<button class="uk-button">Cancel</button>
+					<button class="uk-button uk-text-bolder">Confirm</button>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/js/uikit-icons.min.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>

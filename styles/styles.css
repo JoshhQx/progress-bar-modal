@@ -1,0 +1,27 @@
+.modal-header {
+  background-color: #006554;
+}
+.modal-header h2 {
+  color: white;
+}
+
+.uk-progress.progress-green::-webkit-progress-value {
+  background-color: #006554;
+}
+
+.uk-progress.progress-green::-moz-progress-bar {
+  background-color: #006554;
+}
+
+.uk-progress.progress-green::-ms-fill {
+  background-color: #006554;
+}
+
+.modal-buttons :first-child {
+  background-color: transparent;
+}
+.modal-buttons :last-child {
+  background-color: #006554;
+  color: white;
+  border-radius: 15px;
+}/*# sourceMappingURL=styles.css.map */

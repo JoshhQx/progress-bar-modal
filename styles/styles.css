@@ -1,33 +1,38 @@
+:root {
+	--primaryColor: #006554;
+	--secondaryColor: #ffff;
+}
+
 .modal-header {
-  background-color: #006554;
+	background-color: var(--primaryColor);
 }
 .modal-header h2 {
-  color: white;
+	color: var(--secondaryColor);
 }
 
 .uk-progress.progress-green::-webkit-progress-value {
-  background-color: #006554;
+	background-color: var(--primaryColor);
 }
 
 .uk-progress.progress-green::-moz-progress-bar {
-  background-color: #006554;
+	background-color: var(--primaryColor);
 }
 
 .uk-progress.progress-green::-ms-fill {
-  background-color: #006554;
+	background-color: var(--primaryColor);
 }
 
 #modal-button {
-  margin: 20% auto;
-  width: 150px;
-  display: block;
+	margin: 20% auto;
+	width: 150px;
+	display: block;
 }
 
 .modal-buttons :first-child {
-  background-color: transparent;
+	background-color: transparent;
 }
 .modal-buttons :last-child {
-  background-color: #006554;
-  color: white;
-  border-radius: 15px;
-}/*# sourceMappingURL=styles.css.map */
+	background-color: var(--primaryColor);
+	color: var(--secondaryColor);
+	border-radius: 15px;
+}

@@ -1,5 +1,5 @@
 $primaryColor: #006554;
-$secondaryColor: $secondaryColor;
+$secondaryColor: #ffff;
 
 .modal-header {
 	background-color: $primaryColor;
@@ -18,7 +18,11 @@ $secondaryColor: $secondaryColor;
 .uk-progress.progress-green::-ms-fill {
 	background-color: $primaryColor;
 }
-
+.uk-button {
+	margin: 20% auto;
+	width: 150px;
+	display: block;
+}
 .modal-buttons {
 	:first-child {
 		background-color: transparent;

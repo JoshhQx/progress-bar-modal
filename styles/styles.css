@@ -17,6 +17,12 @@
   background-color: #006554;
 }
 
+.uk-button {
+  margin: 20% auto;
+  width: 150px;
+  display: block;
+}
+
 .modal-buttons :first-child {
   background-color: transparent;
 }
